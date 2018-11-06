@@ -13,7 +13,7 @@ public class Options : MonoBehaviour
     public WhichMenu whichMenu;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         graphicsPanel = GameObject.Find("Graphics Panel");
         audioPanel = GameObject.Find("Audio Panel");

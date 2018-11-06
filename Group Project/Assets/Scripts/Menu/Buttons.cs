@@ -80,8 +80,8 @@ public class Buttons : MonoBehaviour
                 pauseMenu.SetActive(true);
                 pauseOptions.SetActive(false);
             }
-                optionOn = false;
-            }
+            optionOn = false;
+        }
     }
 
     public void TogglePause()
@@ -103,7 +103,7 @@ public class Buttons : MonoBehaviour
             pauseMenu.SetActive(false);
             Time.timeScale = 1;
             paused = false;
-            
+
         }
     }
 
